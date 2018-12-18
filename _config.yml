@@ -3,7 +3,3 @@ theme: jekyll-bootstrap
 name: jhonny111s
 description: web developer
 avatar: https://avatars3.githubusercontent.com/u/4080701?s=400&u=edf30c1e0ed5a1e458fbc895bfcb1b760d23e78b&v=4
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-plugins:
-  - font-awesome-sass
