@@ -9,6 +9,7 @@ RUN apt-get update && apt-get -y install build-essential zlib1g-dev liblzma-dev 
 
 # https://bundler.io/v2.0/#getting-started
 RUN gem install bundler
+RUN gem install bundler jekyll
 
 # folder where we going to woek
 WORKDIR /usr/src/app
@@ -19,4 +20,4 @@ RUN bundle install
 
 # like run bundle exec jekyll serve in bash
 ENTRYPOINT ["bundle"]
-CMD ["exec", "jekyll serve"]
+CMD ["exec", "jekyll serve --livereload --host 0.0.0.0"]
