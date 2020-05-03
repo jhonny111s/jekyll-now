@@ -47,11 +47,15 @@ Ahora debemos copiar nuestra llave publica desde nuestra consola e ir a pegarla 
 cat < ~/.ssh/id_rsa.pub
 ~~~
 
-Copiamos esta cadena de caracteres y la vamos a copiar en [settings/ssh keys and gpg keys](https://help.github.com/en/enterprise/2.16/user/articles/adding-a-new-ssh-key-to-your-github-account).
+Copiamos esta cadena de caracteres y la vamos a copiar en [settings/ssh keys and gpg keys](https://help.github.com/es/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
 
-{% include note.html content="Para mas informacion ver [generating SSH key](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key)"%}
+{% include note.html content="Para mas información ver [generating SSH key](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key)"%}
 
 ## Repositorio
 
-Una vez completados los pasos anteriores ya podremos clonar nuestros repositorios, hacerles pull o push sin que nos pida usuario y contraseña
+Una vez completados los pasos anteriores ya podremos crear y clonar nuestros repositorios desde github, hacerles pull o push sin que nos pida usuario y contraseña.
+
+{% include note.html content="Creamos nuestro proyecto desde github, solo debemos clonarlo [crear nuevo repositorio](https://help.github.com/en/github/getting-started-with-github/create-a-repo)"%}
+{% include note.html content="Podemos crear nuestro proyecto local y luego agregar la url de nuestro proyecto creado en github [subir repositorio local](https://help.github.com/en/github/using-git/adding-a-remote)"%}
+
  
